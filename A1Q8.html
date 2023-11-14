@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: rgb(62, 58, 58);
+            margin: 0px;
+            padding: 0px;
+        }
+        .pics{
+            display: flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            margin: auto;
+            height: 90vh;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        img{
+            border-radius: 100%;
+            height: 250px;
+            width: 250px;
+            border: 5px solid white;
+
+        }
+        .po2{
+            position: relative;
+            z-index: 1;
+            right: 40px;
+        }
+        .po3{
+            position: relative;
+            z-index: 2;
+            right: 80px;
+        }
+        .po4{
+            position: relative;
+            z-index: 3;
+            right: 120px;
+        }
+    </style>
+</head>
+<body>
+    <div class="pics">
+      <img class="po po1" src="https://images.pexels.com/photos/1586298/pexels-photo-1586298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""> 
+      <img class="po po2" src="https://hips.hearstapps.com/hmg-prod/images/close-up-of-purple-crocus-flowers-united-kingdom-uk-royalty-free-image-1674159456.jpg" alt=""> 
+      <img class="po po3" src="https://beaudryflowers.ca/cdn/shop/products/novase_800x.jpg?v=1526705078" alt=""> 
+      <img class="po po4" src="https://images.pexels.com/photos/2365465/pexels-photo-2365465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""> 
+    </div>
+</body>
+</html>
